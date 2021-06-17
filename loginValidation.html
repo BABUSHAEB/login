@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Validation</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        form{
+            background-color: aliceblue;
+            padding: 30px;
+            margin: 13% 35%; 
+            width: fit-content;
+            border-radius: 35px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        input , button{
+            padding: 10px 30px;
+            margin: 8px;
+            width: 400px;
+            font-size: 24px;
+            box-sizing: border-box;
+            border: none;
+        }
+        #btnlogin{
+            background-color: #04aa6d;
+            color: white;
+        }
+        h1 {
+            text-align: center;
+        }
+        a{
+            margin: 30% ;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <form id="loginForm" action="">
+        <h1>Login Form</h1>
+        <h3 id="error"> </h3><br>
+
+        <input type="text" name="username" id="userName" placeholder="Username"><br>
+        <input type="password" name="password" id="password" placeholder="Password"><br>
+        <button id="btnlogin"  > Log In</button><br>
+        <a href="http://"> Forget Password?</a>
+    </form>
+    <script src="/js/loginvalidate.js"></script>
+
+    
+</body>
+</html>

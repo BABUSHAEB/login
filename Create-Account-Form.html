@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create | Account</title>
+    <style>
+        input , button , option {
+            padding: 10px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Create Account Form</h1>
+    <form action="">
+        <input type="text" placeholder="Firstname" required><br>
+        <input type="text" placeholder="Lastname" ><br>
+        <input type="email" placeholder="Email" required><br>
+        <input type="password" placeholder="Password" required><br>
+        <input type="password" placeholder="Confirm Password" required><br>
+        <input type="number"  placeholder="Age" required><br>
+        Photo:<br>
+        <input type="file"><br>
+        Gender : <br>      
+        <input type="radio" id="Male" value="Male" name="gender" required><label for="Male">Male</label>
+        <input type="radio" id="Female" value="Female"  name="gender"><label for="Female">Female</label>
+        <input type="radio" id="Other" value="Other"  name="gender"><label for="Other">Other</label>
+        <br>
+        Games:<br>
+        <input type="checkbox" name="Games" id="Kabadi" value="Kabadi"><label for="Kabadi">Kabadi</label> <br>
+        <input type="checkbox" name="Games" id="Cricket" value="Cricket"><label for="Cricket">Cricket</label> <br>
+        <input type="checkbox" name="Games" id="Football" value="Football"><label for="Football">Football</label> <br>
+        <input type="checkbox" name="Games" id="Hockey" value="Hockey"><label for="Hockey">Hockey</label> <br>
+        <label  for="Hero">Choose a Favourite Hero:</label><br>
+        <select  style="margin: 10px;" id="Hero" name="Hero" >
+          <option value="Not Selected">Not Selected</option>
+          <option value="Salman Khan">Salman Khan</option>
+          <option value="Shahrukh Khan">Shahrukh Khan</option>
+          <option value="Yash">Yash</option>
+          <option value="Akshay Kumar">Akshay Kumar</option>
+          <option value="Hritik Roshan">Hritik Roshan</option>
+          <option value="Tom Cruise">Tom Cruise</option>
+          <option value="Jhon Abraham">Jhon Abraham</option>
+          <option value="Jackey Shorff">Jackey Shorrf</option>
+          <option value="Varun Dhawan">Varun Dhawan</option>
+          <option value="Pawan Kalyan">Pawan Kalyan</option>
+          <option value="Allu Arjun">Allu Arjun</option>
+          <option value="Prabhas">Prabhas</option>
+        </select><br>
+        <input type="checkbox" name="is Admin" id="Is Admin" value="Is Admin" checked><label for="Is Admin">Is Admin</label> <br>
+        <button>Create Account</button>
+    </form>
+    
+</body>
+</html>

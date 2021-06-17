@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account | Validation</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        form{
+            background-color: aliceblue;
+            padding: 30px;
+            margin: 8% 35%; 
+            width: fit-content;
+            border-radius: 35px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        .place{
+            padding: 10px 30px;
+            margin: 8px;
+            width: 400px;
+            font-size: 24px;
+            box-sizing: border-box;
+            border: none;
+        }
+        h1 {
+            text-align: center;
+        }
+        a{
+            margin: 30% ;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        /* select , span {
+            padding: 10px;
+            font-size: 20px;
+        } */
+        .typebtn , span{
+            font-size: 24px;
+            margin: 8px;
+        }
+        #createAccount{
+            background-color: #04aa6d;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <h1>Create Account Form</h1>
+        <input class="place"  type="text" name="" id="firstName" placeholder="Firstname"><br>
+        <input class="place"  type="text" name="" id="lastname" placeholder="Lastname"><br>
+        <input class="place"  type="password" name="" id="password" placeholder="Password"><br>
+        <input class="place"  type="password" name="" id="confirmPassword" placeholder="Confirm Password"><br>
+        <input class="place"  type="number" name="" id="age" placeholder="Age" min="1" max="120" > <br>
+        <Span>Gender :</Span><br>
+        <input class="typebtn" type="radio" name="gender" id="male"><Label class="typebtn">Male</Label>
+        <input class="typebtn" type="radio" name="gender" id="Female"><Label class="typebtn">Female</Label>
+        <input class="typebtn" type="radio" name="gender" id="other"><Label class="typebtn">Other</Label><br>
+        <span>Games :</span><br>
+        <input class="typebtn" type="checkbox" name="games" id="Hockey"><label  class="typebtn" for="Hockey">Hockey</label><br>
+        <input class="typebtn" type="checkbox" name="games" id="Circket"><label class="typebtn"  for="Circket">Circket</label><br>
+        <input class="typebtn" type="checkbox" name="games" id="Football"><label class="typebtn"  for="Football">Football</label><br>
+        <input class="typebtn" type="checkbox" name="games" id="Kabadi"><label class="typebtn"  for="Kabadi">Kabadi</label><br>
+        <span>Hero :</span>
+        <select class="typebtn"  id="Hero" name="Hero" >
+            <option value="Not Selected">Not Selected</option>
+            <option value="Salman Khan">Salman Khan</option>
+            <option value="Shahrukh Khan">Shahrukh Khan</option>
+            <option value="Yash">Yash</option>
+            <option value="Akshay Kumar">Akshay Kumar</option>
+            <option value="Hritik Roshan">Hritik Roshan</option>
+            <option value="Tom Cruise">Tom Cruise</option>
+            <option value="Jhon Abraham">Jhon Abraham</option>
+            <option value="Jackey Shorff">Jackey Shorrf</option>
+            <option value="Varun Dhawan">Varun Dhawan</option>
+            <option value="Pawan Kalyan">Pawan Kalyan</option>
+            <option value="Allu Arjun">Allu Arjun</option>
+            <option value="Prabhas">Prabhas</option>
+          </select><br>
+          <input class="typebtn" type="checkbox" name="Is Admin" id="isAdmin"><label class="typebtn" for="Is Admin">Is Admin</label><br>
+          <button  class="place" id="createAccount">Create Account</button>
+    </form>
+    
+</body>
+</html>

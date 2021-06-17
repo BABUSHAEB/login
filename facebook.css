@@ -1,0 +1,63 @@
+         .container{
+            padding: 10px 0px;
+            margin: 10px;
+            text-align: center;
+            width: 100%;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: #cfcdcd; 
+
+        }
+        body{
+
+            margin: 100px;
+        }
+        
+         #h1{
+            font-size: 35px;
+            color: #4267B2 ;
+        }
+        .user-form{ 
+            display: inline-block;
+            margin: auto;
+            margin: 10px;
+            padding: 10px 0px;
+            width: 302px;
+            font-size: 18px;
+            border-radius: 10px ;
+            border:  none;
+            
+
+        }
+        #log-in {
+            background-size: auto;
+            padding: 16px auto;            
+            color :#ffffff;
+            background-color: #4267B2;
+            
+        }
+
+        #createNewAccount{
+            font-size: x-large; 
+            padding: 2% 5%;
+            color :#ffffff;
+             font-size: 14px; 
+            background-color: lawngreen;
+            border-radius: 8px;
+            border: none;
+
+         }  
+         #facebook{
+             padding-right: 10%;
+            
+             }
+         #fb-form{
+             width: 00vmax;
+             padding: 10px;
+             background-color :#ffffff;
+             border-radius: 10px;
+             position: relative;
+             }
+        .container{
+            padding: 100px 25px;
+
+             }

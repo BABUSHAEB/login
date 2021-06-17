@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>W3&#46schools</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="/oddevenarray.js"></script>
+<style>
+  *{
+    font-family: Arial, Helvetica, sans-serif;  
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+ ul ,li{
+    display: flex;
+    margin: 0;
+    padding: 8px ;
+    
+   
+  }
+  a{
+    font-size: 24px;
+    color: inherit;
+    text-decoration: none;
+
+
+  }
+  .headeritem{
+    padding: 20px 40px ;
+   font-size: 15px;
+
+  }
+  #hdrright1 {
+    margin-left:40% ;
+    padding: 20px 40px ;
+    margin-right: 20px;
+  }  
+  #hdrright2{
+    background-color: #04AA6D;
+    border-radius: 60px;
+    padding: 20px 40px;
+    color: white;
+
+  }
+  #hdrright1:hover{
+    background-color: #04AA6D;
+    border-radius: 60px;
+    padding: 20px 40px;
+    color: white;
+
+  }
+  .headeritem:hover{
+    background-color: #04AA6D;
+    color: white;
+  }
+
+ 
+  #navbar{
+    color: white;
+    background-color: rgb(108, 109, 107);
+  }
+  .active{
+    background-color: #04AA6D;
+
+  }
+  .navitem:hover{
+    background-color: rgb(7, 7, 7);
+    display: block;
+  }
+  .sideitem {
+    padding-left: 10px;
+    margin: 5px;
+
+  }
+ 
+  #sidebar{
+    display: block;
+    left: 0;
+    width: 18vw;
+    height: 100vh;
+    overflow-y: scroll;
+    text-align: justify;
+    font-size: 8px;
+  }
+  .home{
+    background-color: #04AA6D;
+    display: block;
+
+
+  }
+  .sideitem:hover{
+    background-color: #d0d6d4;
+    display: block;
+    margin: 0;
+  }
+  #asidetutorial{
+
+    width: 80%;
+    /* background-color: lawngreen; */
+    float: right;
+    top: 0;
+    margin-top: 0;
+    overflow: auto;
+    border-right-color:2px solid lightblue;
+    height: auto;
+  }
+  button{
+    border-radius: 15px;
+    color: white;
+    padding: 10px 20px;
+    background-color: #04AA6D;
+    font-size: 30px;
+
+  }
+  h1{
+    margin-top: 200px;
+    font-size: 60px;
+  }
+  .btnnext{
+    margin-left: 850px;
+
+  }
+  p{
+  
+    font-size: 24px;
+    word-spacing: 5px;
+    text-
+  
+  }
+  table{
+    width: 80%;
+    margin-top: 10px;
+    background-color: #D0F5F5;
+    border-radius: 10px;
+  }
+
+</style>
+</head>
+<body>
+<header class="headerbar">
+    <ul>
+      <a href="#"></a><li> <img width="60px" height="50px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1200px-W3Schools_logo.svg.png" alt="W3shools"></a></li>
+      <li class="headeritem"> <a href="#">Tutorial<i class="fas fa-caret-down"></i></a></li>
+      <li class="headeritem"> <a href="#">References<i class="fas fa-caret-down"></i></a></li>
+      <li id="hdrpadding"  class="headeritem"> <a href="#">Exercises<i class="fas fa-caret-down"></i></a>
+      <li class="headeritem" id="hdrright1"> <a href="#">Paid Course</a></li>
+      <li class="headeritem" id="hdrright2"> <a href="#">Log in</a></li>
+    </ul>
+</header>
+<nav id="navbar" >
+  <ul>
+    <li class="navitem" > <a  href="#"><i class="fas fa-home"></i></a></li>
+    <li class="active navitem"> <a href="#">HTML</a></li>
+    <li class="navitem"> <a href="#">CSS</a></li>
+    <li class="navitem"> <a href="#">JAVASCRIPT</a></li>
+    <li class="navitem"> <a href="#">SQL</a></li>
+    <li class="navitem"> <a href="#">PYTHON</a></li>
+    <li class="navitem"> <a href="#">PHP</a></li>
+    <li class="navitem"> <a href="#">BOOTSTRAP</a></li>
+    <li class="navitem"> <a href="#">HOW TO</a></li>
+    <li class="navitem"> <a href="#">W3&#46;CSS</a></li>
+    <li class="navitem"> <a href="#">JAVA</a></li> 
+    <li class="navitem"> <a href="#">JQUERY</a></li>
+    <li class="navitem"> <a href="#">C++</a></li>
+    <li class="navitem"> <a href="#">C#</a></li>
+    <li  class="navitem"> <a href="#">R</a></li>
+    <li style="padding-right: 15%; visibility: hidden;" class=""> </li>
+    <li> <a href="#"><i class="navitem fas fa-adjust"></i></a></li>
+    <li> <a href="#"><i class="navitem fas fa-globe-asia"></i></a></li>
+    <li> <a href="#"><i class="navitem fas fa-search"></i></a></li>
+  </ul>
+</nav>
+
+<!-- this is for right aside tag  -->
+
+<aside id="asidetutorial">
+  <h1>HTML Tutorial</h1>
+  <button class="btnhome">&lt; Home</button>
+  <button class="btnnext">Next &gt;</button>
+  <section>
+    <table>
+      <tr>
+        <td>
+          <img width="300px" height="300px" src="http://assets.stickpng.com/thumbs/5847f5bdcef1014c0b5e489c.png" alt="Html5 Image">
+        </td>
+        <td>
+          <p>
+          HTML is the standard markup language for Web pages. <br>   
+          With HTML you can create your own Website.    <br>
+          HTML is easy to learn - You will enjoy it! <br></p>
+          <button>Start Learning HTML now &gt;&gt;</button>
+        </td>
+      </tr>
+    </table>
+    <hr width="80%" style="margin-left:0 ;">
+    <article>
+      <span style="font-size: 50px; margin-top: 10px;">Easy Learning with HTML "Try it Yourself"</span>
+      <p>
+         With our "Try it Yourself" editor, you can edit the HTML code and view the result:
+      </p>
+      
+     
+    </article>
+
+  </section>
+
+
+</aside>   
+<!-- This is for scroll aside bar -->
+<aside Id="sidebar">
+
+    <span class="sideitem "><h3><a href="">HTML Tutorial</a></h3></span><br>
+    <span class="sideitem home"><a href="">HTML HOME</a></span><br>
+    <span class="sideitem"><a href="">HTML Introduction</a></span><br>
+    <span class="sideitem"><a href="">HTML Editors</a></span><br>
+    <span class="sideitem"><a href="">HTML Basic</a></span><br>
+    <span class="sideitem"><a href="">HTML Elements</a></span><br>
+    <span class="sideitem"><a href="">HTML Attributes</a></span><br>
+    <span class="sideitem"><a href="">HTML Heading</a></span><br>
+    <span class="sideitem"><a href="">HTML Paragraphs</a></span><br>
+    <span class="sideitem"><a href="">HTML Styles</a></span><br>
+    <span class="sideitem"><a href="">HTML Formatting</a></span><br>
+    <span class="sideitem"><a href="">HTML Quotations</a></span><br>
+    <span class="sideitem"><a href="">HTML Comments</a></span><br>
+    <span class="sideitem"><a href="">HTML Colors</a></span><br>
+    <span class="sideitem"><a href="">HTML CSS</a></span><br>
+    <span class="sideitem"><a href="">HTML Links</a></span><br>
+    <span class="sideitem"><a href="">HTML Images</a></span><br>
+    <span class="sideitem"><a href="">HTML Tables</a></span><br>
+    <span class="sideitem"><a href="">HTML Lists</a></span><br>
+    <span class="sideitem"><a href="">HTML Block & Inline</a></span><br>
+    <span class="sideitem"><a href="">HTML Classes</a></span><br>
+    <span class="sideitem"><a href="">HTML Id</a></span><br>
+    <span class="sideitem"><a href="">HTML Iframes</a></span><br>
+    <span class="sideitem"><a href="">HTML JavaScript</a></span><br>
+    <span class="sideitem"><a href="">HTML File Paths</a></span><br>
+    <span class="sideitem"><a href="">HTML Head</a></span><br>
+    <span class="sideitem"><a href="">HTML Layout</a></span><br>
+    <span class="sideitem"><a href="">HTML Responsive</a></span><br>
+    <span class="sideitem"><a href="">HTML Computercode</a></span><br>
+    <span class="sideitem"><a href="">HTML Semantics</a></span><br>
+    <span class="sideitem"><a href="">HTML Style Guide</a></span><br>
+    <span class="sideitem"><a href="">HTML Entities</a></span><br>
+    <span class="sideitem"><a href="">HTML Symbols</a></span><br>
+    <span class="sideitem"><a href="">HTML Emojis</a></span><br>
+    <span class="sideitem"><a href="">HTML Charset</a></span><br>
+    <span class="sideitem"><a href="">HTML URL Encode</a></span><br>
+    <span class="sideitem"><a href="">HTML vs. XHTML</a></span><br>
+    <h3><span class="sideitem"><a href="">HTML Forms</a></span><br></h3>
+    <span class="sideitem"><a href="">HTML Forms </a></span><br>
+    <span class="sideitem"><a href="">HTML Form Attributes</a></span><br>
+    <span class="sideitem"><a href="">HTML Form Elements</a></span><br>
+    <span class="sideitem"><a href="">HTML Input Type</a></span><br>
+    <span class="sideitem"><a href="">HTML Input Attributes</a></span><br>
+    <span class="sideitem"><a href="">HTMLInputForm Attributes</a></span><br> 
+    <span class="sideitem"><a href=""></a></span><br> 
+
+
+</aside>
+
+
+</body>
+</html>
